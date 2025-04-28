@@ -1,0 +1,10 @@
+{
+    "storage": {
+        "data_dir": "data",
+        "conf_dir": "etc"
+    },
+    "availability": {
+        "inout_api_url_prefix": "https://api.example.com/status/",
+        "inout_unavailable_statuses": ["OOO", "AWAY"]
+    }
+} 

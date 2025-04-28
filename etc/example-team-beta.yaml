@@ -1,0 +1,8 @@
+strategy: least_assigned
+availability_checker: always_available
+users:
+  - alice
+  - bob
+  - charlie
+  - dan
+  - tom

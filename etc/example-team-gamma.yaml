@@ -1,0 +1,11 @@
+strategy: random
+users:
+  - alice
+  - bob
+  - charlie
+  - dan
+  - eve
+  - frank
+  - grace
+  - hank
+  - ivan

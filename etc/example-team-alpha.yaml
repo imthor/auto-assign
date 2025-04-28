@@ -1,0 +1,7 @@
+strategy: round_robin
+availability_checker: always_available
+users:
+  - alice
+  - bob
+  - charlie
+  - tom
