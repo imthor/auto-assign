@@ -4,6 +4,7 @@ data/
 
 # Binary files
 autoassigner
+autoassigner-*
 *.exe
 *.exe~
 *.dll
