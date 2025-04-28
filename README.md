@@ -21,8 +21,37 @@ A CLI tool for automatically assigning tasks to team members based on various se
 ## Installation
 
 ```bash
+# Install from source
 go install github.com/justinthomas/autoassigner@latest
+
+# Or build from source
+git clone https://github.com/justinthomas/autoassigner.git
+cd autoassigner
+make install
 ```
+
+## Building
+
+The project uses Make for building and releasing:
+
+```bash
+# Show available build targets
+make help
+
+# Build for current platform
+make build
+
+# Build for all supported platforms
+make release
+
+# Install to /usr/local/bin
+make install
+```
+
+Supported platforms:
+- Darwin (macOS) amd64/arm64
+- Linux amd64/arm64
+- Windows amd64
 
 ## Usage
 
@@ -136,8 +165,8 @@ The tool maintains several types of data files:
 
 1. Clone the repository
 2. Install dependencies: `go mod download`
-3. Build: `go build`
-4. Run tests: `go test ./...`
+3. Build: `make build`
+4. Run tests: `make test`
 
 ## Testing
 
@@ -151,7 +180,7 @@ The codebase includes comprehensive tests for:
 
 Run tests with:
 ```bash
-go test ./...
+make test
 ```
 
 ## Contributing
